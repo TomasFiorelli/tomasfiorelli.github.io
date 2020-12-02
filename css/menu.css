@@ -1,0 +1,33 @@
+.menupai{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Lato', sans-serif;
+}
+.menufilho{
+    text-align: start;
+    border: 0.1rem solid red;
+    padding: 3%;
+    margin: 1rem 8rem .5rem 1rem;
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+}
+
+img{
+    position: relative;
+    left: 59%;  
+    width: 3rem;
+    height: 3rem; 
+}
+
+html
+{
+    color: white;
+    background-color: black;
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+}

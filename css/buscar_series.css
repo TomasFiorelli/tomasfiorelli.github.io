@@ -1,0 +1,71 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+header
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20%;
+
+}
+.serie{
+    height: 9rem;
+    width: 6rem;
+    margin: 0.4rem;
+}
+p{
+    margin-left: 0.4rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+.menu{
+    height: 3rem;
+    width: 3rem;
+}
+.lupa{
+
+    height: 2rem;
+    width: 2rem;
+}
+.busca{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: 0.1rem black solid;
+    border-radius: 1rem;
+    background-color: red;
+}
+.tudo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    margin-top: 2.3rem;
+}
+
+html
+{
+    color: red;
+    background-color: black;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+div a
+{
+    color: black;
+    font-weight: bold;
+}

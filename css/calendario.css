@@ -1,0 +1,64 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+header
+{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+div{
+    margin-top: 2rem;
+    font-family: 'Lato', sans-serif;
+}
+.menu{
+    height: 3rem;
+    width: 3rem;
+}
+h1{
+    font-size: 2rem;
+    margin-left: 3.7rem;
+    font-family: 'Lato', sans-serif;
+}
+main{
+    margin-top: 3rem;
+    font-size: 2rem;
+    align-self: center;
+}
+
+footer{
+    position: fixed;
+    display: flex;
+    margin-top: 5%;
+    border-top: 0.1rem black solid;
+    bottom: 0;
+    padding: 0.5rem;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: 'Lato', sans-serif;
+
+}
+
+html
+{
+    color: red;
+    background-color: black;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer a
+{
+    border: 0.2rem white solid;
+    padding: 0.4rem;
+}

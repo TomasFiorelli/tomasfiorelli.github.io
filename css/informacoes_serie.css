@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    height: 3rem;
+}
+
+.imagem1{
+    padding: 1rem; 
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;  
+}
+p{
+    padding: .3rem;
+    margin: 0rem .1rem .1rem .1rem;
+    font-family: 'Lato', sans-serif;
+}
+.texto{
+    padding: .3rem;
+    margin: 0rem .1rem .1rem .1rem;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: .5rem .5rem .2rem 1rem; 
+    
+}
+
+.outro{
+    display: flex;
+    flex-direction: column;
+    padding: .4rem;
+}
+.sinopse{
+    padding: .5rem;
+    justify-content: center;
+}
+.trailer{
+    justify-content: center;
+    padding: .5rem;
+}
+.video{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: .3rem;
+    
+}
+h1{
+    font-size: 1.5rem;
+    font-family: 'Lato', sans-serif;
+    color: red;
+}
+footer{
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+html
+{
+    color: white;
+    background-color: black;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+footer a
+{
+    border: 0.2rem white solid;
+    padding: 0.4rem;
+}
